@@ -6,11 +6,10 @@ Pvz.:
   "kebabas" --> 1010101
   "a"       --> 1
 -------------------------------------------------------------------------- */
-
-const wordsToNumbers = (word: string): number => {
-  const wordSplit = word.split('').map((_, i) => (i%2 === 0 ? '1':'0')).join('');
-  return parseInt(wordSplit);
-}
+var wordsToNumbers = function (word) {
+    var wordSplit = word.split('').map(function (_, i) { return (i % 2 === 0 ? '1' : '0'); }).join('');
+    return parseInt(wordSplit);
+};
 console.log(wordsToNumbers('Labas'));
 console.log(wordsToNumbers('kebabas'));
 console.log(wordsToNumbers('a'));
