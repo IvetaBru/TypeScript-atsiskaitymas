@@ -28,3 +28,29 @@ h1 {
   border-radius: 5px;
   background-color: #fff;
 }
+
+.card{
+  text-align: center;
+  padding: 10px;
+
+  >h3{
+    padding: 20px;
+  }
+}
+
+.playerCard{
+  background-color: rgb(138, 160, 160);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  line-height: 50px;
+
+  >a{
+    color: azure;
+    text-decoration: none;
+  }
+
+  >a:hover{
+    color: rgb(78, 70, 64);
+  }
+}
