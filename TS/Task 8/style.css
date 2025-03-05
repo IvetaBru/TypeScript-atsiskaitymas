@@ -29,7 +29,7 @@ form {
   flex-wrap: wrap;
 }
 
-#search {
+#meter {
   width: 65%;
   margin: 0;
   padding: 20px;
@@ -50,6 +50,18 @@ form {
   cursor: pointer;
   background-color: #000;
   color: #fff;
+}
+
+#output{
+  max-width: 80%;
+  margin: 50px auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  font-weight: 900;
+  font-size: 1.1em;
 }
 
 /* Tablet */
